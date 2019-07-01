@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  position: relative;
+  text-align: left;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  padding: 25px;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 100;
+  background-color: #ffffff;
+}
+
+.banner {
+  position: relative;
+  margin-top: 70px;
+  background: linear-gradient(to right, #9a565678, #3da6f17a), url(/static/media/IMG_2102.58dd6524.JPG);
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  text-align: center;
+}
+
+.banner-text {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  width: 40%;
+  font-family: 'Playfair Display';
+  font-size: 100px;
+  color: #ffffff;
+}
+
+.card {
+  display: inline-block;
+  cursor: pointer;
+  margin: 50px 30px;
+  width: 500px;
+  transition: box-shadow 500ms ease-in-out, transform 500ms ease-in-out;
+  box-shadow: 0 2px 20px 2px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 10px 20px 3px rgba(0,0,0,0.15);
+}
+
+.card-img {
+  height: 250px;
+  background: #eeeeee;
+}
+
+.card-content {
+  box-sizing: border-box;
+  padding:20px;
+  height: 120px;
+  background: aliceblue;
+  font-size: 22px;
+  font-family: 'Playfair Display';
+  font-weight: bold;
+  text-align: left;
+}
+
+.navigation-bar {
+  margin: 0;
+}
+
+.navigation-bar li{
+  list-style: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 20px;
+}
+
+.navigation {
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #8f8f8f;
+  font-weight: bold;
+}
+
+.link {
+  position: absolute;
+  right: 10px;
+  margin: 0;
+}
+
+.link li {
+  list-style: none;
+  display: inline-block;
+}
+
+li.right-icon {
+  float: right;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.top-icon {
+  display: inline-block;
+}
+
+
+
+
+
